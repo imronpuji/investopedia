@@ -1,0 +1,95 @@
+.stock-ticker {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 1.5rem 2rem;
+  background: #0f0f1a;
+  border-bottom: 1px solid #222;
+}
+
+.ticker-section h3 {
+  color: #888;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.indices-grid {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.index-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  background: #1a1a2e;
+  padding: 1rem;
+  border-radius: 8px;
+  min-width: 140px;
+}
+
+.index-name {
+  color: #aaa;
+  font-size: 0.8rem;
+}
+
+.index-value {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.index-change {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.index-change.positive {
+  color: #00ff88;
+}
+
+.index-change.negative {
+  color: #ff4757;
+}
+
+.movers-grid {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+}
+
+.mover-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  background: #1a1a2e;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  min-width: 120px;
+}
+
+.stock-code {
+  color: #00d4ff;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.stock-price {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.stock-change {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.stock-change.positive {
+  color: #00ff88;
+}
+
+.stock-change.negative {
+  color: #ff4757;
+}
